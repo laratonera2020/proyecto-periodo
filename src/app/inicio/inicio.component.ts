@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-inicio',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./inicio.component.css']
 })
 export class InicioComponent {
+
+  constructor(private routingservice:Router){
+
+  }
+
+  dirigirAntiguoTestamento(){
+    this.routingservice.navigate(['antiguo-testamento'])
+    
+
+  } 
 
 }

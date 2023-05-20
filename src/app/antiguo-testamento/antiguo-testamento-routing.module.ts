@@ -38,7 +38,7 @@ const routes: Routes = [
   component: ReinoUnidoComponent
   },
   {
-    path: 'reino dividido',
+    path: 'reino-dividido',
     component: ReinoDivididoComponent
   },
   {
@@ -46,7 +46,7 @@ const routes: Routes = [
     component: CautiverioComponent
   },
   {
-    path: 'silencio 400 años',
+    path: 'silencio',
     component: SilencioComponent
   }
 
