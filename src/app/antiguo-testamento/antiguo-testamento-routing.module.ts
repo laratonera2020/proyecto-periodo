@@ -9,6 +9,8 @@ import { ReinoUnidoComponent } from '../reino-unido/reino-unido.component';
 import { ReinoDivididoComponent } from '../reino-dividido/reino-dividido.component';
 import { CautiverioComponent } from '../cautiverio/cautiverio.component';
 import { SilencioComponent } from '../silencio/silencio.component';
+import { PACTOSComponent } from '../pactos/pactos.component';
+import { PatriarcasComponent } from '../patriarcas/patriarcas.component';
 
 const routes: Routes = [
   {
@@ -48,7 +50,17 @@ const routes: Routes = [
   {
     path: 'silencio',
     component: SilencioComponent
-  }
+  },
+  {
+
+    path:'pactos',
+    component: PACTOSComponent 
+    },
+    {
+
+      path:'patriarcas',
+      component: PatriarcasComponent
+      },
 
 ];
 

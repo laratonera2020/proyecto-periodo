@@ -14,6 +14,9 @@ import { ReinoDivididoComponent } from './reino-dividido/reino-dividido.componen
 import { CautiverioComponent } from './cautiverio/cautiverio.component';
 import { SilencioComponent } from './silencio/silencio.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { PACTOSComponent } from './pactos/pactos.component';
+import { PACTOSNComponent } from './pactos-n/pactos-n.component';
+import { PatriarcasComponent } from './patriarcas/patriarcas.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +26,9 @@ import { InicioComponent } from './inicio/inicio.component';
     CautiverioComponent,
     SilencioComponent,
     InicioComponent,
+    PACTOSComponent,
+    PACTOSNComponent,
+    PatriarcasComponent,
     
 
   ],

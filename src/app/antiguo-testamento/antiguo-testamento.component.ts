@@ -60,6 +60,11 @@ export class AntiguoTestamentoComponent {
     
 
   } 
+  dirigirPactos(){
+    this.routingservice.navigate(['pactos'],{relativeTo:this.route})
+    
+
+  } 
   
 
 }

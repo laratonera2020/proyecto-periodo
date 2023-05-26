@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { NuevoTestamentoRoutingModule } from './nuevo-testamento-routing.module';
+import { NuevoTestamentoComponent } from './nuevo-testamento.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    NuevoTestamentoComponent
+  ],
   imports: [
     CommonModule,
     NuevoTestamentoRoutingModule

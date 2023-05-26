@@ -16,6 +16,12 @@ export class InicioComponent {
     this.routingservice.navigate(['antiguo-testamento'])
     
 
-  } 
+  }
+
+  dirigirNuevoTestamento(){
+    this.routingservice.navigate(['nuevo-testamento'])
+    
+
+  }  
 
 }

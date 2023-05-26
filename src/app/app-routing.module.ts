@@ -15,7 +15,11 @@ const routes: Routes = [
     loadChildren:() => import('./antiguo-testamento/antiguo-testamento.module').then(m => m.AntiguoTestamentoModule)
 
   },
+  {
+    path: 'nuevo-testamento',
+    loadChildren:() => import('./nuevo-testamento/nuevo-testamento.module').then(m => m.NuevoTestamentoModule)
 
+  },
 ];
 
 
